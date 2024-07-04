@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Imagenes/Logo_ps_Menu.ico" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="Validar.php" method="post">
+        <h2>Login</h2>
+        <div class="input-box">
+          <label>Usuario</label>
+          <input type="text" placeholder="Escribe tu usuario" name="usuario" />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+         
+          <label>Contraseña </label>
+          <input
+            type="password"
+            placeholder="Escribe tu contucontraseña"
+            name="clave"
+          />
+          <i class="bx bxs-lock-alt"></i>
+          <input type="submit" value="Inicio" />
+          <!--<button type="submit" class="btn" onclick="loguear()">Inicio</button>-->
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #BC3CFF, #317FFF);
+    background-size: cover;
+  }
+
+/******************************************************************/
+  .content55 {
+    min-height: 50px;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 50px;
+  
+  }
+  .menu {
+    position: relative;
+    top: 10px;
+    left: -25px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    position: relative;
+    top: -8px;
+    left: 50px;
+  }
+  
+  .logo img {
+    cursor: pointer;
+    width: 72px;
+  }
+  .menu .navbar ul li {
+    position: relative;
+    float: left;
+  }
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: whitesmoke;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+        
+  }
+  .fon:hover {
+    height: 70.1px;
+    background-color: rgba(87, 11, 91, 0.5);
+  }
+  .menu .navbar ul li :hover {
+    color: midnightblue;
+    text-decoration: none;
+        
+  }
+  
+  .menu-v {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    top: 70px;
+    background-color: rgba(87, 11, 91, 0.5);
+  }
+  
+  .menu-h li:hover .menu-v {
+    display: block;
+  }
+  
+  #menu {
+    display: none;
+  }
+  .navbar #menu {
+    display: none;
+  }
+  .menu-icono {
+    width: 45px;
+  }
+  .menu label {
+    cursor: pointer;
+    display: none;
+  }
+  h1 {
+    /*margin: 80px 0 0 350px;*/
+    text-align: center;
+    margin-top: 50px;
+  }
+  .action-btn {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+  }
+  .action-btn:hover {
+    scale: 1.05;
+    color: #fff;
+  }
+  .action-btn:active {
+    scale: 0.95;
+  }
+  
+  .just{
+    text-align: justify;
+  }
+  
+
+
+  
+.ui-w-80 {
+    width : 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background  : rgba(0, 0, 0, 0);
+    
+    color       : #4E5155;
+}
+label.btn {
+    margin-bottom: 0;
+}
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background  : transparent;
+    color       : #26B4FF;
+}
+.btn {
+    cursor: pointer;
+}
+.text-light {
+    color: #babbbc !important;
+}
+.card {
+    background-clip: padding-box;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+    margin-bottom: 70px;
+}
+.row-bordered {
+    overflow: hidden;
+}
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+.material-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+.dark-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+ .culumDG{
+   display: flex;
+   column-gap: 150px;
+ }
+ .culumT{
+  display: flex;
+  column-gap: 100px;
+}
+
+
+
+
+/*//////////////////////////////////*/
+@media (max-width: 993px) {
+  .btnli {
+    display:none;
+        } 
+}
+
+@media (max-width: 768px) {
+  .R-1 {
+    display:none;
+        } 
+}
+@media (max-width: 458px) {
+  .R-2 {
+    display:none;
+        } 
+}
+@media (max-width: 353px) {
+  .R-3{
+    display:none;
+        } 
+}
+@media (max-width: 233px) {
+  .R-4{
+    display:none;
+        } 
+}
+/*//////////////////////////////////*/
